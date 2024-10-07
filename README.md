@@ -1,4 +1,4 @@
-# Bike Sharing Dashboard
+   # Bike Sharing Dashboard
 
 This repository contains a **Bike Sharing Dashboard** project developed using Python and Streamlit. It visualizes key metrics about bike-sharing data, including rentals by season, user types, and weather conditions.
 
