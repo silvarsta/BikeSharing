@@ -58,7 +58,7 @@ filtered_data = data[(data['dteday'] >= start_date)
                      & (data['dteday'] <= end_date)]
 
 
-st.header('Bike Sharing Dashboard  TEST')
+st.header('Bike Sharing Dashboard')
 st.subheader('Visualisasi Data Penyewaan Sepeda')
 
 # 1. Visualisasi Jumlah Penyewaan Berdasarkan Musim
