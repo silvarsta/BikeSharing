@@ -3,11 +3,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import streamlit as st
+import os
 
 sns.set(style='dark')
 
-# Load the data
-data = pd.read_csv("dashboard/data_all.csv")
+# Use absolute path for the CSV file
+current_directory = os.path.dirname(os.path.abspath(__file__))
+data_path = os.path.join(current_directory, "data_all.csv")
+data = pd.read_csv(data_path)
 
 # Convert 'dteday' to datetime format
 data['dteday'] = pd.to_datetime(data['dteday'])
